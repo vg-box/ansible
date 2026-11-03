@@ -8,8 +8,11 @@
 | `sysnet4admin/nxosv_v9` | 9.2.3 |
 | `sysnet4admin/VyOS` | 1.1.8.1 |
 | `CumulusCommunity/cumulus-vx` | 3.6.0 |
+| `sysnet4admin/Windows2019` | 1.0.0 |
 
 - box 파일은 [Releases](https://github.com/vg-box/ansible/releases)에 있습니다. 같은 Release의
   `SHA256SUMS`로 내려받은 파일을 확인할 수 있습니다.
 - 예비 카탈로그는 [vg-box/k8s](https://github.com/vg-box/k8s)의 GitHub Pages에 있습니다.
 - 각 이미지의 라이선스는 원래 배포처의 조건을 따릅니다.
+- `sysnet4admin/Windows2019`는 Windows Server 2019 평가판(Server Core)으로 직접 빌드한 box입니다. 평가 기간은 새로 만든
+  VM에서 180일입니다.
